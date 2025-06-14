@@ -1,6 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
-  color: #2e2f42;
+  color: #434455;
   background-color: #fff;
 }
 
@@ -17,14 +17,15 @@ li {
 /*Header navigation start*/
 .navigation-link-logo {
   text-transform: uppercase;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
-}
-.navigation-link-logo-iris {
   color: #4d5ae5;
+}
+.navigation-link-logo-studio {
+  color: #2e2f42;
 }
 
 .navigation-list-item-link {
@@ -33,8 +34,12 @@ li {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+.navigation-list-item-link:hover,
+.navigation-list-item-link:focus {
+  color: #404bbf;
+}
 
-.link-address {
+.address {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -42,49 +47,51 @@ li {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.link-address-list {
+.address-list {
 }
-.link-address-list-item {
+.address-list-item {
 }
-.link-address-list-item-mail {
+.address-list-item-link {
+  color: #434455;
 }
-.link-address-list-item-tel {
+.address-list-item-link:hover,
+.address-list-item-link:focus {
+  color: #404bbf;
 }
 /*Header navigation end*/
 
 /*Hero buner start*/
 .hero-baner {
-  width: 1440px;
-  height: 600px;
   background: #2e2f42;
   color: white;
 }
 .hero-baner-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 .hero-baner-button {
   color: white;
   background-color: #4d5ae5;
   cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+.hero-baner-button:hover,
+.hero-baner-button:focus {
+  background-color: #404bbf;
 }
 /*Hero buner end*/
 
 /*Section advantages start*/
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  border: 0;
-  overflow: hidden;
-  clip: rect(0 0 0 0);
-  white-space: nowrap;
-}
 .advantages {
+}
+.advantages-title {
 }
 .advantages-list {
 }
@@ -107,14 +114,18 @@ li {
 
 /*Section team start*/
 .team {
+  background-color: #f4f4fd;
 }
 .team-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
 }
 .team-list {
+  background-color: #ffffff;
 }
 .team-list-item {
 }
@@ -141,8 +152,10 @@ li {
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
 }
 .portfolio-list {
 }
@@ -169,13 +182,16 @@ li {
 .footer {
   background: #2e2f42;
 }
-.footer-link {
+.footer-logo {
   text-transform: uppercase;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
+  color: #4d5ae5;
+}
+.footer-logo-studio {
   color: #f4f4fd;
 }
 .footer-text {
