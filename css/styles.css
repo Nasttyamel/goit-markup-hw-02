@@ -102,6 +102,7 @@ li {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 .advantages-list-item-text {
   font-weight: 400;
@@ -128,6 +129,7 @@ li {
   background-color: #ffffff;
 }
 .team-list-item {
+  background-color: #ffffff;
 }
 .team-list-item-image {
 }
@@ -136,6 +138,7 @@ li {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 .team-list-item-text {
   font-weight: 400;
@@ -168,6 +171,7 @@ li {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 .portfolio-list-item-text {
   font-weight: 400;
